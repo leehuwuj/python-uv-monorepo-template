@@ -10,6 +10,8 @@ This project includes:
 Navigate to the target package and refer to the README.md for more information.  
 Generally, you should run `uv sync --all-packages` first to create a virtual environment and install the dependencies.
 
+To check linting errors or format the code, run `./scripts/lint.sh` and `./scripts/format.sh`.
+
 # Testing
 
 Run `./scripts/test.sh` to run the tests.
