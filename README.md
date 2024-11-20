@@ -8,7 +8,7 @@ This project includes:
 # Development
 
 Navigate to the target package and refer to the README.md for more information.  
-Generally, you should run `uv sync` first to create a virtual environment and install the dependencies.
+Generally, you should run `uv sync --all-packages` first to create a virtual environment and install the dependencies.
 
 # Testing
 
