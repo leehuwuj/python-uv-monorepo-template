@@ -14,10 +14,10 @@ dependencies = []
 package = false
 dev-dependencies = [
     "coverage>=7.6.7",
-    "mypy>=1.13.0",
     "pytest-asyncio>=0.24.0",
     "pytest>=8.3.3",
     "ruff>=0.7.3",
+    "ty>=0.0.1a14",
 ]
 
 [tool.uv.sources]

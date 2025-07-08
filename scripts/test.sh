@@ -3,6 +3,6 @@
 set -e
 set -x
 
-coverage run --source=app -m pytest
-coverage report --show-missing
-coverage html --title "${@-coverage}"
+uv run coverage run --source=app -m pytest
+uv run coverage report --show-missing
+uv run coverage html --title "${@-coverage}"
