@@ -27,3 +27,6 @@ api = { workspace = true }
 
 [tool.uv.workspace]
 members = ["src/core", "src/api"]
+
+[tool.ty.environment]
+root = ["src/api", "src/core"]
