@@ -1,5 +1,5 @@
 #!/bin/sh -e
 set -x
 
-ruff check src --fix
-ruff format src
+uv run ruff check src --fix
+uv run ruff format src
